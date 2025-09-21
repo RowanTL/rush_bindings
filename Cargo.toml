@@ -5,8 +5,9 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name = "rs_bindings"
+name = "rush_bindings"
 crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = "0.25.0"
+rush = { git = "https://github.com/RowanTL/rush", branch = "main" }
