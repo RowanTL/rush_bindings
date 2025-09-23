@@ -9,5 +9,6 @@ name = "rush_bindings"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = { version = "0.25.0", features = [ "auto-initialize" ] }
+pyo3 = { version = "0.26.0", features = [ "auto-initialize" ] }
+syn = "2.0.106"
 rush = { path = "/home/rowan/Documents/programming/rush" }
