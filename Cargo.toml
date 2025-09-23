@@ -9,5 +9,5 @@ name = "rush_bindings"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "0.25.0"
+pyo3 = { version = "0.25.0", features = [ "auto-initialize" ] }
 rush = { git = "https://github.com/RowanTL/rush", branch = "main" }
