@@ -1830,11 +1830,11 @@ dependencies = [
 [[package]]
 name = "rush"
 version = "0.1.0"
-source = "git+https://github.com/RowanTL/rush?branch=main#795db3a9d7e077ad4375878d73bff78b24bf24f6"
 dependencies = [
  "num-traits",
  "paste",
  "polars",
+ "pyo3",
  "rand 0.9.2",
  "rush_macro",
  "rust_decimal",
@@ -1843,7 +1843,6 @@ dependencies = [
 [[package]]
 name = "rush_macro"
 version = "0.1.0"
-source = "git+https://github.com/RowanTL/rush?branch=main#795db3a9d7e077ad4375878d73bff78b24bf24f6"
 dependencies = [
  "proc-macro2",
  "quote",

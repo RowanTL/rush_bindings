@@ -10,4 +10,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = { version = "0.25.0", features = [ "auto-initialize" ] }
-rush = { path = "/home/rowan/Documents/programming/rush", branch = "main" }
+rush = { path = "/home/rowan/Documents/programming/rush" }
